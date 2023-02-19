@@ -155,10 +155,9 @@ namespace _0217
 
                 if (choice >= 1 && choice <= 3)
                 {
-                    Console.WriteLine("Введите три числа: ");
+                    Console.WriteLine("Enter two numbers: ");
                     int a = Convert.ToInt32(Console.ReadLine());
                     int b = Convert.ToInt32(Console.ReadLine());
-                    int c = Convert.ToInt32(Console.ReadLine());
 
                     Console.WriteLine(dg[choice - 1].Invoke(a, b));
                 }
